@@ -1,0 +1,14 @@
+GET http://localhost:3000/users
+
+###
+
+Get http://localhost:3000/users/15
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Linus"
+}
